@@ -1,0 +1,9 @@
+{
+  "installCommand": "echo 'skip install'",
+  "buildCommand": "echo 'skip build'",
+  "outputDirectory": ".",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
